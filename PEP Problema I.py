@@ -6,7 +6,7 @@ while intentos<3:
         print("Cantidad de dígitos: ", digitos)
         numero_uno = int(semilla)
         for i in range(10):
-            numero_dos = numero_uno*2
+            numero_dos = numero_uno*numero_uno
             snumero_dos = str(numero_dos)
             digitos_dos = len(snumero_dos)
             primerc = int((digitos_dos - digitos) / 2)
